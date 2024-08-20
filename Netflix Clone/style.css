@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(./bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+  max-width: 75vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 65px;  
+}
+nav img{
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    padding-top: 20px;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-right: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.hero-section{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 400px; */
+    height: 78.9%;
+    flex-direction: column;
+    position: relative;
+    /* font-size: 40px; */
+    font-family: 'Martel Sans', sans-serif;
+    gap: 20px;
+    padding: 30px;
+    
+
+}
+.hero-section> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero-section> :nth-child(2){
+    font-weight: 350;
+    font-size: 27px;
+    text-align: center;
+}
+.hero-section> :nth-child(3){
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+}
+.line{
+    height: 7px;
+    background-color: rgb(49, 45, 38);
+}
+.enjoy{
+    background-color: black;
+    height: 500px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    /* max-width: 10vw; */
+}
+/* .enjoy>div :first-child{
+    font-weight: bolder;
+    font-size: 45px;
+    text-align: center; 
+    align-items: center;
+    padding-left: 50px; 
+    padding-top: 100px;
+}
+
+.enjoy>div :nth-child(2){
+    font-weight: 350;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-top:  100px;
+} */
+/* .enjoy>div :nth-child(3){
+    font-weight: 350;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 100px;
+}
+.enjoy>div :nth-child(4){
+    font-weight: 350;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 100px;
+} */
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 40vw;
+    padding-left: 150px;
+}
+.shows{
+    background-color: black;
+    height: 500px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+.showsimg img{
+    width: 40vw;
+    
+}
+.watch{
+    background-color: black;
+    height: 400px;
+    color: white;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    margin: auto;
+}
+.kidsimg img{
+    width: 40vw;
+    
+}
+.kids{
+    background-color: black;
+    height: 450px;
+    color: white;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    margin: auto;
+}
+.question{
+    background-color: black;
+    height: 900px;
+    color: white;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* display: flex; */
+    margin: auto;
+}
+footer{
+    margin: 15px;
+}
+.foot2{
+                background-color: black;
+                color: white;
+                height: 350px;
+                display: flex;
+                justify-content: space-evenly;
+}
+ul{
+    margin-top: 25px;
+}
+ul a{
+    display: block;
+    margin: 10px;
+    color: rgba(255,255,255,0.7);
+}

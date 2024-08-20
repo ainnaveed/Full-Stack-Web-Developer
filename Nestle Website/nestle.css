@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.firstdiv{
+    padding-left: 50px;
+    padding-top: 15px;
+    display: flex;
+}
+.navbar{
+    /* padding-left: 50px; */
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar:hover{
+    background-color: azure;
+    
+}
+.navbar a:hover{
+    background-color: cadetblue;
+}
